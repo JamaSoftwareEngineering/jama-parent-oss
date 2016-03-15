@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jamasoftware.oss</groupId>
     <artifactId>jama-parent-oss</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}: public parent project (OSS)</name>
     <description>The jama-parent-oss is a public parent project that is meant to prescribe a small
@@ -27,7 +27,7 @@
     </licenses>
     <scm>
         <connection>scm:git:git@github.com:JamaSoftwareEngineering/jama-parent-oss.git</connection>
-        <tag>HEAD</tag>
+        <tag>jama-parent-oss-1.0.0</tag>
     </scm>
     <distributionManagement>
         <repository>
