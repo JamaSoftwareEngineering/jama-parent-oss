@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jamasoftware.oss</groupId>
     <artifactId>jama-parent-oss</artifactId>
@@ -12,7 +13,8 @@
         dependency management, since that's more up to child projects (think composition).
         It should also not contain anything proprietary to Jama, there is a jama-parent for that
         which has stuff like references to Jama's internal Maven repository, and different copyright
-        notices, and you won't find in the open source space</description>
+        notices, and you won't find in the open source space
+    </description>
     <url>https://github.com/JamaSoftwareEngineering/jama-parent-oss</url>
     <inceptionYear>2016</inceptionYear>
     <organization>
@@ -136,15 +138,6 @@
                     <groupId>com.github.bringking</groupId>
                     <artifactId>requirejs-maven-plugin</artifactId>
                     <version>2.0.4</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>cobertura-maven-plugin</artifactId>
-                    <!--Downgrading to version 2.5.2 as reported by users to address
-                    SEVERE: Cobertura: Error reading file cobertura.ser: null java.io.EOFException
-                    that occurs after number of tests exceeds a large threshold
-                    <version>2.6</version>-->
-                    <version>2.5.2</version>
                 </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
